@@ -1,7 +1,7 @@
 import axios from 'axios';
 import contactsActions from './contactsActions';
 
-axios.defaults.baseURL = 'http://localhost:2000';
+axios.defaults.baseURL = 'https://my-json-server.typicode.com/EugeneYaremenko/goit-react-hw-07-phonebook/';
 
 const addContact = (name, number) => dispatch => {
   dispatch(contactsActions.addContactRequest());
